@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
+  resources :histories
   get 'pages/Home'
   get 'pages/About'
   get 'pages/Contact'
